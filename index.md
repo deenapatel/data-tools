@@ -2,7 +2,6 @@
 ---
 #Data Analysis Tools
 ##Python
-
 ###Presentation: Ipython Notebook
 To open an ipython notebook 
 	*>ipython notebook file.ipynb
