@@ -1,20 +1,19 @@
 ---
 ---
-#Data Analysis Tools
-##Python
-###Presentation: Ipython Notebook
-To open an ipython notebook 
-	*>ipython notebook file.ipynb
+# Data Analysis Tools
+## Python
+### Presentation: Ipython Notebook
+To open an ipython notebook `ipython notebook file.ipynb`
 
 To convert ipython notebook to pdf, first convert to html:
-	*>ipython nbconvert --to html file.ipynb
+	 `ipython nbconvert --to html file.ipynb`
 or
-	>ipython nbconvert --to slides file.ipynb
+	`ipython nbconvert --to slides file.ipynb`
 Then convert html file to pdf:
-	>wkhtmltopdf file.html file.pdf 
+	`wkhtmltopdf file.html file.pdf` 
 or simply print to pdf using the browser print function.
 To convert to html slideshow use:
-	>ipython nbconvert --to slides file.ipynb --post serve
+	`ipython nbconvert --to slides file.ipynb --post serve`
 This will run an html slide show.
 
 
@@ -41,10 +40,10 @@ This will run an html slide show.
 
 ####Misc
 If these packages are not already installed, then install via pip
-	>pip install package
+	`pip install package`
 
 These packages are read into a python program via import:
-	import package
+	`import package`
 note: for matplotlib to display graphs use 
-	%pylab inline 
-	import matplotlib.pyplot as plt
+	`%pylab inline` 
+	`import matplotlib.pyplot as plt`
