@@ -2,9 +2,7 @@
 ---
 # Data Analysis Tools
 
-## Python
-
-### Presentation: Ipython Notebook
+## Presentation: Ipython Notebook
 To open an ipython notebook `ipython notebook file.ipynb`
 
 To convert ipython notebook to pdf, first convert to html:
@@ -19,9 +17,9 @@ To convert to html slideshow use:
 This will run an html slide show.
 
 
-###Python packages:
+##Python packages:
 
-####Data manipulation and modeling 
+###Data manipulation and modeling 
 	Pandas - data manipulation: reads data into dataframes
 	NumPy - efficient numerical computation and array operations
 		(Pandas and SciPy are built on Numpy)
@@ -31,19 +29,19 @@ This will run an html slide show.
                 logistic regression, classification, clustering,
                 dimension reduction...
 
-####Plotting and visualization	
+###Plotting and visualization	
 	Matplotlib - plotting library
 	Seaborn - statistical visualization (based on matplot lib)
 	Bokeh - interactive visualization
 
-####Data sourcing
+###Data sourcing
 	Requests, Zipfile, Os
   example:
-	result = requests.get("http://...")
-	(can also use linux command line: wgets)
-	uzf=zipfile.zipfile(StringIO.StringIO(result.content))
+	`result = requests.get("http://...")`
+	`uzf=zipfile.zipfile(StringIO.StringIO(result.content))`
+  another option is to use Linux commands wgets, this can be documented within a makefile.
 
-####Misc
+###Misc
 If these packages are not already installed, then install via pip
 	`pip install package`
 
@@ -52,3 +50,7 @@ These packages are read into a python program via import:
 note: for matplotlib to display graphs use 
 	`%pylab inline` 
 	`import matplotlib.pyplot as plt`
+
+## Collaboration and version control
+
+Git
