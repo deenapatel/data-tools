@@ -15,10 +15,7 @@
 		`ipython nbconvert --to slides file.ipynb --post serve`
 		This will run an html slide show.
 
-### Data manipulation and modeling
-
-#### Python packages:
-
+### Data manipulation and modeling: Python packages
 	Pandas - data manipulation: reads data into dataframes
 	NumPy - efficient numerical computation and array operations
 		(Pandas and SciPy are built on Numpy)
@@ -28,10 +25,7 @@
                 logistic regression, classification, clustering,
         	dimension reduction...
 
-### Plotting and visualization
-
-#### Python packages:
-
+### Plotting and visualization:  Python packages
 	Matplotlib - plotting library
 	Seaborn - statistical visualization (based on matplot lib)
 	Bokeh - interactive visualization
@@ -43,6 +37,8 @@
 	example:
 	`result = requests.get("http://...")`
 	`uzf=zipfile.zipfile(StringIO.StringIO(result.content))`
+
+#### Linux comand line:
 	another option is to use Linux commands wgets, this can be documented within a makefile.
 
 ### Misc
@@ -55,6 +51,5 @@
 		`%pylab inline` 
 		`import matplotlib.pyplot as plt`
 
-### Collaboration and version control
-#### Git
+### Collaboration and version control:  Git
 
