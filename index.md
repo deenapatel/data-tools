@@ -1,7 +1,9 @@
 ---
 ---
 # Data Analysis Tools
+
 ## Python
+
 ### Presentation: Ipython Notebook
 To open an ipython notebook `ipython notebook file.ipynb`
 
@@ -18,6 +20,7 @@ This will run an html slide show.
 
 
 ###Python packages:
+
 ####Data manipulation and modeling 
 	Pandas - data manipulation: reads data into dataframes
 	NumPy - efficient numerical computation and array operations
@@ -27,10 +30,12 @@ This will run an html slide show.
 	Scikit-learn - machine learning: includes linear regression,
                 logistic regression, classification, clustering,
                 dimension reduction...
+
 ####Plotting and visualization	
 	Matplotlib - plotting library
 	Seaborn - statistical visualization (based on matplot lib)
 	Bokeh - interactive visualization
+
 ####Data sourcing
 	Requests, Zipfile, Os
   example:
