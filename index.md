@@ -27,7 +27,7 @@ This will run an html slide show.
 		includes optimization, linear algebra, integration, ...
 	Scikit-learn - machine learning: includes linear regression,
                 logistic regression, classification, clustering,
-                dimension reduction...
+        	dimension reduction...
 
 ###Plotting and visualization	
 	Matplotlib - plotting library
@@ -36,10 +36,10 @@ This will run an html slide show.
 
 ###Data sourcing
 	Requests, Zipfile, Os
-  example:
+	example:
 	`result = requests.get("http://...")`
 	`uzf=zipfile.zipfile(StringIO.StringIO(result.content))`
-  another option is to use Linux commands wgets, this can be documented within a makefile.
+another option is to use Linux commands wgets, this can be documented within a makefile.
 
 ###Misc
 If these packages are not already installed, then install via pip
