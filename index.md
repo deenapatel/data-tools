@@ -39,18 +39,16 @@ This will run an html slide show.
 	example:
 	`result = requests.get("http://...")`
 	`uzf=zipfile.zipfile(StringIO.StringIO(result.content))`
-another option is to use Linux commands wgets, this can be documented within a makefile.
+	another option is to use Linux commands wgets, this can be documented within a makefile.
 
 ###Misc
-If these packages are not already installed, then install via pip
+	If these packages are not already installed, then install via pip
 	`pip install package`
 
-These packages are read into a python program via import:
+	These packages are read into a python program via import:
 	`import package`
-note: for matplotlib to display graphs use 
+	note: for matplotlib to display graphs use 
 	`%pylab inline` 
 	`import matplotlib.pyplot as plt`
 
-## Collaboration and version control
-
-Git
+## Git: Collaboration and version control
