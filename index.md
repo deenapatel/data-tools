@@ -3,18 +3,17 @@
 # Data Analysis Tools
 
 ## Presentation: Ipython Notebook
-To open an ipython notebook `ipython notebook file.ipynb`
-
-To convert ipython notebook to pdf, first convert to html:
-	 `ipython nbconvert --to html file.ipynb`
-or
-	`ipython nbconvert --to slides file.ipynb`
-Then convert html file to pdf:
-	`wkhtmltopdf file.html file.pdf` 
-or simply print to pdf using the browser print function.
-To convert to html slideshow use:
-	`ipython nbconvert --to slides file.ipynb --post serve`
-This will run an html slide show.
+   To open an ipython notebook `ipython notebook file.ipynb`
+   To convert ipython notebook to pdf, first convert to html:
+      `ipython nbconvert --to html file.ipynb`
+      or
+      `ipython nbconvert --to slides file.ipynb`
+      Then convert html file to pdf:
+      `wkhtmltopdf file.html file.pdf` 
+      or simply print to pdf using the browser print function.
+   To convert to html slideshow use:
+      `ipython nbconvert --to slides file.ipynb --post serve`
+      This will run an html slide show.
 
 
 ##Python packages:
