@@ -16,25 +16,26 @@
 		This will run an html slide show.
 
 ### Data manipulation and modeling: Python packages
-	*Pandas - data manipulation: reads data into dataframes
-	*NumPy - efficient numerical computation and array operations
+	* pandas - data manipulation: reads data into dataframes
+	* numpy - efficient numerical computation and array operations
 		(Pandas and SciPy are built on Numpy)
-	*Scipy - scientific computing package 
+	* scipy - scientific computing package 
 		includes optimization, linear algebra, integration, ...
-	*Scikit-learn - machine learning: includes linear regression,
+	* scikit-learn - machine learning: includes linear regression,
                 logistic regression, classification, clustering,
         	dimension reduction...
 
 ### Plotting and visualization:  Python packages
-	Matplotlib - plotting library
-	Seaborn - statistical visualization (based on matplot lib)
-	Bokeh - interactive visualization
+	* matplotlib - plotting library
+	seaborn - statistical visualization (based on matplot lib)
+	bokeh - interactive visualization
 
 ### Data sourcing
 
 #### Python packages:
-	Requests, Zipfile, Os
+	requests, zipfile, os
 	example:
+	'imort requests zipfile'
 	`result = requests.get("http://...")`
 	`uzf=zipfile.zipfile(StringIO.StringIO(result.content))`
 
