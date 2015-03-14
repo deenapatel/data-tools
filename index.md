@@ -16,12 +16,12 @@
 		This will run an html slide show.
 
 ### Data manipulation and modeling: Python packages
-	Pandas - data manipulation: reads data into dataframes
-	NumPy - efficient numerical computation and array operations
+	*Pandas - data manipulation: reads data into dataframes
+	*NumPy - efficient numerical computation and array operations
 		(Pandas and SciPy are built on Numpy)
-	Scipy - scientific computing package 
+	*Scipy - scientific computing package 
 		includes optimization, linear algebra, integration, ...
-	Scikit-learn - machine learning: includes linear regression,
+	*Scikit-learn - machine learning: includes linear regression,
                 logistic regression, classification, clustering,
         	dimension reduction...
 
