@@ -3,7 +3,8 @@
 # Data Analysis Tools
 
 ### Presentation: Ipython Notebook
-	10 minute video intro to Pandas and Ipython notebook: <https://vimeo.com/59324550>
+	10 minute video intro to Pandas and Ipython notebook: <a href="https://vimeo.com/59324550">https://vimeo.com/59324550</a>
+	
 	To open an ipython notebook `ipython notebook file.ipynb`
 	To convert ipython notebook to pdf, first convert to html:
 		`ipython nbconvert --to html file.ipynb`
